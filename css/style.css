@@ -90,7 +90,19 @@ h1 img { width:280px }
 .side .con > p:nth-child(3) {bottom: 50px; transition: 1.2s;}
 .side .con > p > em { font: bold normal 16px/1.7 arial; color: #a0bd50; transform: skew(40deg); display: inline-block;}
 
-.side .btnContents {position: absolute; bottom: 40px; left: 0; color: #b9fb05; font-size: 60px; transform: skew(40deg);}
+.side .btnContents {position: absolute; bottom: 40px; left: 100px; color: #b9fb05; font-size: 60px; transform: skew(40deg);
+    width: 150px; height: 50px;}
+.side:hover .btnContents {left: 700px;}
+.side .btnContents i {position: absolute; top: 0; right: 0;
+    animation: arrowAni 1.5s infinite;}
+.side .btnContents i:nth-child(1) {animation-delay: 0s;}
+.side .btnContents i:nth-child(2) {animation-delay: 0.5s;}
+.side .btnContents i:nth-child(3) {animation-delay: 1s;}
+
+@keyframes arrowAni {
+    0% {}
+    100% { opacity: 0; transform: scale(1.5); right: 100px;}
+}
 
 
 
