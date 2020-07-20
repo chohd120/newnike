@@ -90,7 +90,7 @@ h1 img { width:280px }
 .side .con > p:nth-child(3) {bottom: 50px; transition: 1.2s;}
 .side .con > p > em { font: bold normal 16px/1.7 arial; color: #a0bd50; transform: skew(40deg); display: inline-block;}
 
-
+.side .btnContents {position: absolute; bottom: 40px; left: 0; color: #b9fb05; font-size: 60px; transform: skew(40deg);}
 
 
 
